@@ -1,0 +1,110 @@
+.logo {
+    font-size: 1.6em;
+    color: white;
+}
+.nav_menu {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    z-index: 9;
+    white-space: nowrap;
+    transition: 0.5s
+}
+
+.nav_menu a {
+    padding: 0.8rem 0;
+    color: var(--lite);
+    margin: 0 1.5rem;
+    text-transform: uppercase;
+    font-family: var(--title_font);
+    font-weight: 400;
+    position: relative;
+    white-space: nowrap;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 1.6em;
+}
+
+.nav_menu .active {
+    color: var(--primary_dark) !important;
+    border-bottom: 2px solid var(--primary_dark);
+}
+
+.nav_menu .flex_content:nth-child(2) a:after {
+    transition: 0.5s;
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    top: 100%;
+    height: 2px;
+    background: var(--primary);
+}
+
+.nav_menu a:hover {
+    color: var(--white);
+}
+
+.nav_menu .flex_content:nth-child(2) a:hover:after {
+    width: 100%;
+}
+
+.nav_menu .flex_content:last-child a {
+    float: left;
+}
+
+.nav_menu .ham {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid var(--lite);
+    width: 50px;
+    height: 50px;
+    color: var(--lite);
+}
+
+.nav_menu .ham:hover {
+    border: 2px solid var(--white);
+}
+
+.stroke {
+    color: transparent;
+    -webkit-text-stroke: 1.5px var(--primary_dark);
+}
+@media (max-width:920px) {
+    .nav_menu {
+        padding: 1rem;
+    }
+
+    .nav_menu .ham {
+        width: 30px;
+        height: 30px;
+    }
+
+    .nav_menu .nav_menu_content {
+        width: 200px;
+        background-color: var(--dark);
+        z-index: 999 !important;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        overflow: hidden;
+        height: 100%;
+        transition: 0.5s;
+    }
+
+    .nav_menu .nav_content a {
+        display: block;
+        padding: 0.4rem 0rem;
+        margin: 1rem;
+        font-size: 20px;
+    }
+}

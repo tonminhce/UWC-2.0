@@ -1,0 +1,45 @@
+.bottomSlot__container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.bottomSlot__profile{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bottomSlot__profile img{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.bottomSlot__name{
+    white-space: nowrap;
+    line-height: 0.3;
+    
+}
+.bottomSlot__name p{
+    font-size: 1rem;
+}
+
+.bottomSlot__status__green{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: green;
+    cursor: pointer;
+    text-align: center;
+}
+.bottomSlot__status__red{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #fa5757;
+    cursor: pointer;
+        text-align: center;
+}

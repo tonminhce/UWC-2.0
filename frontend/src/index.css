@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  background-color: #1a1b1e;
+  color-scheme: light dark;
+  color: #1a1b1e;
+  background-color: #242424;
+  overflow-x: hidden;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --color-gray-100: #f4f3f1;
+  --color-gray-200: #dddbd8;
+  --color-gray-300: #ccc9c6;
+  --color-gray-400: #aeaba7;
+  --color-gray-500: #8a8784;
+  --color-gray-600: #656360;
+  --color-gray-700: #4b4a47;
+  --color-gray-800: #31302e;
+  --color-gray-900: #1f1d1b;
+
+  --color-primary-100: #fcf3e1;
+  --color-primary-200: #fceccd;
+  --color-primary-300: #fae1af;
+  --color-primary-400: #fbd997;
+  --color-primary-500: #ffd37c;
+  --color-primary-600: #f9c762;
+  --color-primary-700: #fbc14d;
+  --color-primary-800: #fab833;
+  --color-primary-900: #f6ad1b;
+
+/* CUSTOM FOR LANDING PAGE */
+  --white: #fff;
+  --black: #101010;
+  --dark: #191919;
+  --gray: rgba(1, 1, 1, 0.6);
+  --lite: rgba(255, 255, 255, 0.6);
+  --primary: linear-gradient(145deg, #f81f01, #ee076e);
+  --primary_dark: #f81f01;
+  --secondary: #154b87;
+  --default_font: 'Open Sans', sans-serif;
+  --title_font: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+body::-webkit-scrollbar {
+  width: 0.2em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(126, 125, 125);
+  outline: 0.2px solid slategrey;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width:920px) {
+  .flex {
+    flex-wrap: wrap;
+  }
+
+  .padding_1x,
+  .padding_2x,
+  .padding_3x,
+  .padding_4x {
+    padding: 1rem;
+  }
+
+  .big {
+    font-size: 1.8em;
+  }
+
+  .medium {
+    font-size: 1.6em;
+  }
+
+  .small {
+    font-size: 1.1em;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+  }
+
+  a,
+  p,
+  .btn {
+    font-size: 12px;
+  }
+}

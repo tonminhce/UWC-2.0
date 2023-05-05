@@ -1,0 +1,64 @@
+.HomePage{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://i.postimg.cc/KjTmvF10/header.jpg");
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;  
+}
+.getStarted{
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 12px 30px;
+    font-size: 1rem;
+    background-color: red;
+    color: var(--white);
+    font-weight: bold;
+    border-radius: 15px;
+}
+.getStarted:hover{
+    background-color: rgb(207, 32, 32);
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header section {
+    padding: 0 2rem;  
+}
+
+header article .title {
+    font-size: 5rem;
+    font-weight: bolder;
+    text-align: left;
+    background: var(--primary);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    line-height: 1.3;
+    margin: 0;
+}
+
+header article p {
+    color: var(--lite);
+    width: 60%;
+}
+.btn{
+    display: block;
+        background-color: 0;
+        border: 0;
+        text-transform: uppercase;
+        color: var(--white);
+}
+@media (max-width:920px) {
+    header section {
+        padding: 6rem 0rem;
+    }
+
+    header article p {
+        width: 100%;
+    }
+}

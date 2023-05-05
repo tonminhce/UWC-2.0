@@ -1,0 +1,30 @@
+.chat__card{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 1px solid #383b40;
+}
+.chat__card__avatar img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.char__card__info{
+    
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.chat__card__name{
+    margin-bottom: 4px;
+    font-size: 1.2rem;
+    color: #b5b7ba;
+}
+.chat__card_latest{
+    font-size: 1rem;
+    color: #626466;
+}

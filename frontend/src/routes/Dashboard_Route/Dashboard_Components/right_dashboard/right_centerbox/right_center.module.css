@@ -1,0 +1,30 @@
+.rightCenter__container{
+    width: 100%;
+    height: 50%;
+    
+    background-image:
+        linear-gradient(to right, #09090a33, #3a3d4133),
+        url('../../../../../assests/3.jpg');
+    background-size: cover;
+    border-radius: 30px;
+}
+.rightCenter__content{
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.rightCenter__content__progessbar{
+    width: 60%;
+}
+.rightCenter__content__btn{
+    padding: 5px 20px;
+    font-size: 1rem;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}

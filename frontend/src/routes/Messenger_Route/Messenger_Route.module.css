@@ -1,0 +1,55 @@
+.route__container{
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    max-height: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 0.6fr 2fr 0.6fr;
+    grid-template-rows: 0.2fr 1fr 1fr;
+    font-family: 'Varela Round', sans-serif;
+}
+.route__header{
+    border-bottom: 1px solid #323336;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    display: grid;    
+    grid-template-columns: 0.6fr 2fr 0.6fr;
+}
+.logo_section{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__center{
+    grid-column: 2/3;
+}
+.userInfo{
+    display: flex;
+}
+.userInfo img{
+    width: 2rem;
+}
+.avatar{
+    height: 3rem;
+    width: 4rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    background-image: url("../../assests/mrCollector.jpg");
+    background-size:cover;
+    background-position: right;
+}
+
+main{
+    grid-column: 1/4;
+    grid-row: 2/4;
+}

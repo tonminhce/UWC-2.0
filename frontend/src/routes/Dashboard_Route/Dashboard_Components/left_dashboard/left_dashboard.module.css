@@ -1,0 +1,119 @@
+.leftDashboard__grid{
+    width: 80%;
+    height: 90%;
+    background-color: #2e3033;
+    border-radius: 30px;
+    justify-self: center;
+    align-self: center;
+    margin-left: 50px;
+}
+
+.leftDashboard__content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+/* HEADER */
+.leftDashboard__header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftDashboard__header__title{
+    margin-left: 10px;
+    font-weight: 500;
+    font: 'Poppins', sans-serif;
+    color: rgb(223, 223, 223);
+    display: flex;
+    align-items: center;
+}
+/* BODY */
+.leftDashboard__body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50%;
+}
+.leftDashboard__body__item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 30px;
+    border-radius: 30px;  
+}
+.leftDashboard__body__item:hover{
+    background-color: #e2e0e0;
+}
+.leftDashboard__body__item:hover .leftDashboard__body__item__icon,
+.leftDashboard__body__item:hover .leftDashboard__body__item__text a
+{
+    color: black;
+}
+
+
+.leftDashboard__body__item__icon{
+    margin-right: 10px;
+    color: #bbb;
+    font-size: 1.5rem;
+}
+.leftDashboard__body__item__text a{
+    color: #bbb;
+    white-space: nowrap;
+    font: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+}
+/* FOOTER */
+.leftDashboard__footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40%;
+}
+.leftDashboard__body__title,
+.leftDashboard__footer__title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 30px;
+    margin-bottom: -30px;
+    color: #636466;      
+}
+.leftDashboard__footer__item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 30px;
+    border-radius: 30px;
+    
+}
+.leftDashboard__footer__item__icon {
+    margin-right: 10px;
+    color: #bbb;
+    font-size: 1.5rem;
+}
+.leftDashboard__footer__item__text a {
+    white-space: nowrap;
+    font: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #bbb;
+}
+.leftDashboard__footer__item:hover {
+    background-color: #e2e0e0;
+}
+
+.leftDashboard__footer__item:hover .leftDashboard__footer__item__icon,
+.leftDashboard__footer__item:hover .leftDashboard__footer__item__text a {
+    color: black;
+}

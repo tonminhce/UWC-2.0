@@ -1,0 +1,25 @@
+.centerboard_grid{
+    width: 100%;
+    height: 100%;
+    grid-column: 2/4;
+    grid-row: 1/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 20px ;
+}
+.centerboard_grid__item{
+    height: 100%;
+    width: 90%;
+    padding: 40px;
+    background-color: #2e3033;
+    border-radius: 10px;
+    overflow: scroll;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.centerboard_grid__item::-webkit-scrollbar{
+    display: none;
+}

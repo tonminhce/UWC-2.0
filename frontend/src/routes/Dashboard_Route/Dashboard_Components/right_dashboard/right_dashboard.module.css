@@ -1,0 +1,35 @@
+.right_dashboard__grid{
+    width: 100%;
+    height: 100%;
+}
+.right_dashboard__content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+}
+.right_dashboard__content__upperbox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.right_dashboard__time{
+    width: 60%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #2e3033 ;
+    color:white
+}
+.right_dashboard__icon{
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #2e3033;
+    font-size: 1.3rem;
+    color: white;
+}
